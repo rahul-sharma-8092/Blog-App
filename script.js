@@ -47,7 +47,7 @@ form.addEventListener("submit", (event) => {
 // Display Full content on Blog Page
 const displayFullBlog = (i) => {
 	const Origin = window.location.origin;
-	window.location.replace(`https://rahul-sharma-8092.github.io/Blog-App/blog.html?=${i}`);
+	window.location.replace(`https://rahul-sharma-8092.github.io/blog-app/blog.html?=${i}`);
 };
 
 // Display blog on homepage
