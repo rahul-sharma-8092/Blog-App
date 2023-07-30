@@ -271,3 +271,22 @@ form .btn {
 	margin-top: 30px;
 	text-align: justify;
 }
+
+@media (max-width: 768px) {
+	.heading {
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.heading-container {
+		width: 100%;
+		text-align: center;
+	}
+	.heading-container p {
+		text-align: center;
+	}
+	.model-content {
+		width: 80%;
+		margin: 9% auto;
+	}
+}
